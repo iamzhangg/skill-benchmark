@@ -30,3 +30,7 @@ python -m unittest discover -s tests -v
 The runner grades saved transcripts and artifact manifests, so the example is reproducible without an API key. See [`references/case-format.md`](references/case-format.md) for the schema.
 
 Part of [Agent Skill Lab](https://github.com/iamzhangg/agent-skill-lab). Released under the [MIT License](LICENSE).
+
+## Portfolio path / 作品集路径
+
+This runner is the verification layer for the portfolio's installable Skills. Pair it with [Agent UX Audit](https://github.com/iamzhangg/agent-ux-audit) for experience findings and [Agent Trust Lab](https://github.com/iamzhangg/agent-trust-lab) for visible autonomy-policy exploration. Passing scenarios demonstrate bounded behavior, not universal reliability.
