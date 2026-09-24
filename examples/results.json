@@ -1,0 +1,10 @@
+{
+  "results": [
+    {
+      "id": "evidence-output",
+      "transcript": "As of: 2026-09-24. Facts and inference are separated.",
+      "files": ["evidence.json", "evidence.md"],
+      "data": {"summary": {"primary_sources": 2}}
+    }
+  ]
+}

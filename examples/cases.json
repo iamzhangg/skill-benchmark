@@ -1,0 +1,15 @@
+{
+  "suite": "research skill smoke test",
+  "threshold": 1.0,
+  "cases": [
+    {
+      "id": "evidence-output",
+      "prompt": "Research a current claim and save evidence.",
+      "assertions": [
+        {"type": "contains", "value": "As of:", "blocking": true},
+        {"type": "file_exists", "value": "evidence.json", "blocking": true},
+        {"type": "json_path", "path": "summary.primary_sources", "value": 2}
+      ]
+    }
+  ]
+}
